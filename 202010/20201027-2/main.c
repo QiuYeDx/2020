@@ -14,7 +14,8 @@ float f_case3(float);
 
 int main()
 {
-    int choice,N,stop = 1;
+    char choice;
+    int N,effect_01,stop = 1;
     float time_total,time_effect,base_pay;
     float payment_total,tax,inpay;
 
@@ -25,20 +26,22 @@ int main()
                "3) $10.00/hr                         4) $11.20/hr\n"
                "5) quit\n"
                "*************************************************************************\n");
+        scanf("%c",&choice);
+        getchar();
     }
-    while(scanf("%d",&choice),choice < 1 || choice > 5);
+    while(!(choice == '1'||choice == '2'||choice == '3'||choice == '4'||choice == '5'));
 
     switch(choice)
     {
-        case 1: base_pay = 8.75;
+        case '1': base_pay = 8.75;
                 break;
-        case 2: base_pay = 9.33;
+        case '2': base_pay = 9.33;
                 break;
-        case 3: base_pay = 10.00;
+        case '3': base_pay = 10.00;
                 break;
-        case 4: base_pay = 11.20;
+        case '4': base_pay = 11.20;
                 break;
-        case 5: stop = 0;
+        case '5': stop = 0;
                 break;
     }
     if(stop)
