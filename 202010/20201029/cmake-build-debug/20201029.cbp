@@ -76,9 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/qiuyedianxia/CLionOutput/exercises/202010/20201029/1.cpp">
-			<Option target="20201029"/>
-		</Unit>
 		<Unit filename="/home/qiuyedianxia/CLionOutput/exercises/202010/20201029/main.c">
 			<Option target="20201029"/>
 		</Unit>
