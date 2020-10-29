@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/20201029_3.dir/main.c.o  -o 20201029_3 
