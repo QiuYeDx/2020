@@ -52,7 +52,7 @@ int sum_div(int _num)
             _k+=2;
         }
     }
-    _k-=2;
+    _k--;
     while(_k>=0)
     {
         _sum += _div[_k];
