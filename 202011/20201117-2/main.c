@@ -17,7 +17,8 @@ int main()
     int j_yn=1;
     char ch;
 
-    while((ch=(char)getchar())!=EOF)
+    scanf("%c",&ch);
+    while((ch=getchar())!=EOF)
     {
         if(j_yn==1)
         {
@@ -55,7 +56,7 @@ int main()
     return 0;
 }
 
-void j_turn()
+void j_turn()      //奇数项排序
 {
     int i,j;
     char k;
@@ -72,7 +73,7 @@ void j_turn()
         }
 }
 
-void o_turn()
+void o_turn()      //偶数项排序
 {
     int i,j;
     char k=0;
