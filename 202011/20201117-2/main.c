@@ -17,7 +17,7 @@ int main()
     int j_yn=1;
     char ch;
 
-    while((ch=getchar())!=EOF)
+    while((ch=(char)getchar())!=EOF)
     {
         if(j_yn==1)
         {
@@ -43,12 +43,12 @@ int main()
     {
         if(i_output_js<=n_js)
         {
-            printf("%d",js[i_output_js]);
+            printf("%c",js[i_output_js]);
             i_output_js++;
         }
         if(i_output_os<=n_os)
         {
-            printf("%d",os[i_output_os]);
+            printf("%c",os[i_output_os]);
             i_output_os++;
         }
     }
