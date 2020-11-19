@@ -1,4 +1,4 @@
-# Install script for directory: /home/qiuyedianxia/CLionOutput/exercises/202011/20201119-1
+# Install script for directory: /home/qiuyedianxia/CLionOutput/exercises/202011/202011191-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/qiuyedianxia/CLionOutput/exercises/202011/20201119-1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/qiuyedianxia/CLionOutput/exercises/202011/202011191-/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

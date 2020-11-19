@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(20201119_1 C)
+project(202011191_ C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(20201119_1 main.c)
+add_executable(202011191_ main.c)
