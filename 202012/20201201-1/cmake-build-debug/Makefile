@@ -68,10 +68,10 @@ RM = /snap/clion/135/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiuyedianxia/CLionOutput/exercises/202011/20201120-4
+CMAKE_SOURCE_DIR = /home/qiuyedianxia/CLionOutput/exercises/202012/20201201-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiuyedianxia/CLionOutput/exercises/202011/20201120-4/cmake-build-debug
+CMAKE_BINARY_DIR = /home/qiuyedianxia/CLionOutput/exercises/202012/20201201-1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyedianxia/CLionOutput/exercises/202011/20201120-4/cmake-build-debug/CMakeFiles /home/qiuyedianxia/CLionOutput/exercises/202011/20201120-4/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyedianxia/CLionOutput/exercises/202012/20201201-1/cmake-build-debug/CMakeFiles /home/qiuyedianxia/CLionOutput/exercises/202012/20201201-1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyedianxia/CLionOutput/exercises/202011/20201120-4/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiuyedianxia/CLionOutput/exercises/202012/20201201-1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 20201120_4
+# Target rules for targets named 20201201_1
 
 # Build rule for target.
-20201120_4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20201120_4
-.PHONY : 20201120_4
+20201201_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20201201_1
+.PHONY : 20201201_1
 
 # fast build rule for target.
-20201120_4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201120_4.dir/build.make CMakeFiles/20201120_4.dir/build
-.PHONY : 20201120_4/fast
+20201201_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_1.dir/build.make CMakeFiles/20201201_1.dir/build
+.PHONY : 20201201_1/fast
 
 main.o: main.c.o
 
@@ -149,7 +149,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201120_4.dir/build.make CMakeFiles/20201120_4.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_1.dir/build.make CMakeFiles/20201201_1.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -158,7 +158,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201120_4.dir/build.make CMakeFiles/20201120_4.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_1.dir/build.make CMakeFiles/20201201_1.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -167,7 +167,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201120_4.dir/build.make CMakeFiles/20201120_4.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_1.dir/build.make CMakeFiles/20201201_1.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 20201120_4"
+	@echo "... 20201201_1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
