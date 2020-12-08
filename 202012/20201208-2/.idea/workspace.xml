@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="20201207_2" targetName="20201207_2" />
+      <config projectName="20201208_2" targetName="20201208_2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35757f64-9163-4352-898a-cafd465eeb5f" name="Default Changelist" comment="" />
+    <list default="true" id="ab8ecff9-243b-4da6-a084-eab86ee05bfb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1lKAerAMQ3wXgtvnHQKHH1wxiMp" />
+  <component name="ProjectId" id="1lLyB2VM9o4bk2A3P7sfPqWPNeS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,10 +34,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
-    <configuration name="20201207_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="20201207_2" TARGET_NAME="20201207_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="20201207_2" RUN_TARGET_NAME="20201207_2">
+    <configuration name="20201208_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="20201208_2" TARGET_NAME="20201208_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="20201208_2" RUN_TARGET_NAME="20201208_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -51,13 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35757f64-9163-4352-898a-cafd465eeb5f" name="Default Changelist" comment="" />
-      <created>1607335507107</created>
+      <changelist id="ab8ecff9-243b-4da6-a084-eab86ee05bfb" name="Default Changelist" comment="" />
+      <created>1607390527158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607335507107</updated>
-      <workItem from="1607335510402" duration="2609000" />
-      <workItem from="1607389303792" duration="19000" />
+      <updated>1607390527158</updated>
+      <workItem from="1607390529948" duration="854000" />
     </task>
     <servers />
   </component>
@@ -65,21 +69,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1607389277611">
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1607391383915">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607389277611" />
-    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1607389277611">
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607391383915" />
+    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1607391383915">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607389277611" />
-    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1607389277610">
+    <state width="1238" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607391383915" />
+    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1607391383914">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607389277610" />
-    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1607389277611">
+    <state width="1238" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607391383914" />
+    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1607391383915">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607389277611" />
+    <state width="1238" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607391383915" />
+    <state x="142" y="45" key="SettingsEditor" timestamp="1607391370161">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="142" y="45" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607391370161" />
   </component>
 </project>
