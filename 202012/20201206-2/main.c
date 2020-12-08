@@ -22,6 +22,7 @@ int main() {
             if (yn)
                 printf("%c", ch_a[j1]);
         }
+        printf("\n");
     }
     return 0;
 }
