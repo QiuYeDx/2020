@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>   //N个大数(大分数)相加
 struct fs{
     long long fz;
     long long fm;
