@@ -12,16 +12,16 @@ int main() {
     gets(s2);
     length=(int)strlen(s2);
 
-    pt=s2;
+    pt=s1;
     while(strstr(pt,s2)!=NULL)
     {
-        pt=strstr(pt,s2);
         p[i]=pt;
+        pt=strstr(pt,s2);
         pt=pt+length;
         i++;
     }
     i--;
-    p[0]=s2;     //从p[0]开始打印字符，直到遇到p[1],然后从p[1]+length开始打印……
+    p[0]=s1;     //从p[0]开始打印字符，直到遇到p[1],然后从p[1]+length开始打印……
     char * pr=p[0];
     for(k=1;(*pr)!='\0';pr++)
     {
