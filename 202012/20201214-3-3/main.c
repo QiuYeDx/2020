@@ -25,7 +25,6 @@ int main() {
     char * pr=p[0];
     for(k=1;(*pr)!='\0';pr++)
     {
-        printf("%p",p[k]);
         if(pr==p[k])
         {
             putchar('#');
@@ -33,8 +32,7 @@ int main() {
             k++;
             continue;
         }
-        else
-            scanf("%c",pr);
+        scanf("%c",pr);
     }
     return 0;
 }
