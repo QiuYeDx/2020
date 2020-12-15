@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/work/git/2020/202012/20201215-1-CPrimerPlus/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
