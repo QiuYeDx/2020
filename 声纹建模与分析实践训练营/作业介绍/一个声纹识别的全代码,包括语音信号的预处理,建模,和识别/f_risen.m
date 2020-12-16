@@ -1,0 +1,36 @@
+function py=f_risen()
+global fname
+%此函数作高频提升
+%fname=recordCallback;
+y=wavread(fname.wav);
+fs=8000;
+yy=double(y);
+size=length(yy);
+for i=1:size
+    if i==1
+        py(i)=yy(i);
+    else
+        py(i)=yy(i)-0.9375*yy(i-1);
+    end;
+end;
+%size=length(py);
+%n=2^ceil(log2(size));
+%subplot(311);
+%plot(y);
+%title('原始波形');
+
+%subplot(312);
+%y1=fft(y,n);
+%f=fs*(0:n/2)/n;
+%y2=abs(y1)/n;
+%plot(f,y2(1:n/2+1));
+%axis([1 4000 -0.001 max(y2)+0.01]);
+%title('频域振幅波形');
+
+%subplot(313);
+%y1=fft(py,n);
+%f=fs*(0:n/2)/n;
+%y2=abs(y1)/n;
+%plot(f,y2(1:n/2+1));
+%axis([1 4000 -0.001 max(y2)+0.01]);
+%title('高频提升后的频域振幅波形');

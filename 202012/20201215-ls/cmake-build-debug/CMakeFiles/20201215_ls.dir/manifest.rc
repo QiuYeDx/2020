@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/git/202010/202012/20201215-ls/cmake-build-debug/CMakeFiles/20201215_ls.dir/embed.manifest"
