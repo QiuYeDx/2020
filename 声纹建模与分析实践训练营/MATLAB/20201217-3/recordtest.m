@@ -1,5 +1,5 @@
 function recordtest(t,n)    %周期,周期数量
-txts='';
+global txts;
 H = audiorecorder(16000,16,2);      
 H.record;
 pause(t); 
@@ -17,6 +17,6 @@ H1=Hm(:,1);
 txts=HaoAudioTxt('ls.wav');
    n=n-1;
  end
- see(txt);
+ see(txts);
  pause(1);
 end
