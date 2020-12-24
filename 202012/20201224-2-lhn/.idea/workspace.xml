@@ -20,7 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="20201224_2_study" targetName="20201224_2_study" />
+      <config projectName="20201224_2_lhn" targetName="20201224_2_lhn" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -29,7 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d0bf98d-a0e5-48e7-a27e-133a437b8039" name="默认的" comment="" />
+    <list default="true" id="a295b648-2553-406b-8193-8f7018ed1bdd" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1m6oWIncUFfbjigfNERCdM03XrV" />
+  <component name="ProjectId" id="1m6pzDk6Ow7dwoBs1sUKSRuIIEx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,7 +55,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="20201224_2_study" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="20201224_2_study" TARGET_NAME="20201224_2_study" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="20201224_2_study" RUN_TARGET_NAME="20201224_2_study">
+    <configuration name="20201224_2_lhn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="20201224_2_lhn" TARGET_NAME="20201224_2_lhn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="20201224_2_lhn" RUN_TARGET_NAME="20201224_2_lhn">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -69,13 +74,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d0bf98d-a0e5-48e7-a27e-133a437b8039" name="默认的" comment="" />
-      <created>1608823431498</created>
+      <changelist id="a295b648-2553-406b-8193-8f7018ed1bdd" name="默认的" comment="" />
+      <created>1608824155177</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608823431498</updated>
-      <workItem from="1608823433271" duration="99000" />
-      <workItem from="1608824138877" duration="16000" />
+      <updated>1608824155177</updated>
+      <workItem from="1608824157014" duration="93000" />
     </task>
     <servers />
   </component>
@@ -92,24 +96,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1608823531577">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608823531577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1608823531577">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608823531577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1608823531577">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608823531577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1608823531577">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608823531577" />
   </component>
 </project>
