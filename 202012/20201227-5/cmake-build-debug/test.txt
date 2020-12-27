@@ -1,0 +1,28 @@
+\*Name,sex,work time(years),salary.*\
+(Input the name in a line.)
+(0:female	1:male)
+Please input the information:(Input [enter] in a new line to quit)
+
+No.1:
+	Name:BaiZihan
+	Sex: male
+	Length Of Service: 5 years
+	Salary: 28888 RMB
+	And the number of 100r: 288
+	    the number of 50r:  1
+	    the number of 20r:  1
+	    the number of 10r:  0
+	    the number of 5r:   1
+	    the number of 1r:   3
+
+No.2:
+	Name:HanSiyuan
+	Sex: female
+	Length Of Service: 3 years
+	Salary: 24999 RMB
+	And the number of 100r: 249
+	    the number of 50r:  1
+	    the number of 20r:  2
+	    the number of 10r:  1
+	    the number of 5r:   1
+	    the number of 1r:   4
