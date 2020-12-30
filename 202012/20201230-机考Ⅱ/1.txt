@@ -1,0 +1,23 @@
+#include<stdio.h>  //子串复制（可优化）
+#include<string.h>
+int main()
+{
+    char ch1[2001]={0};
+    char ch2[2001]={0};
+    int n,m;
+    int l1,l2,k=0,i=0;
+
+    gets(ch1);
+    gets(ch2);
+    l1=strlen(ch1);
+    l2=strlen(ch2);
+    scanf("%d %d",&n,&m);
+
+    for(i=n-1;i<m;i++,k++)
+    {
+        ch2[l2+k]=ch1[i];
+    }
+    ch2[l2+k]='\0';
+    fputs(ch2,stdout);
+    return 0;
+}

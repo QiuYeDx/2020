@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="20201224_1_lhn" targetName="20201224_1_lhn" />
+      <config projectName="20201230_3_2" targetName="20201230_3_2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b3fd18-8e8a-485c-931e-c110af8e7e0c" name="默认的" comment="" />
+    <list default="true" id="3ccac478-8e95-4d62-9317-2fb98d4f4af1" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +22,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1m6qNfqEGdHwbkCVEf7FZJg1J2s" />
+  <component name="ProjectId" id="1mNb95Zra1YpRVaEo4rUEkOenfp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +37,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration name="20201224_1_lhn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="20201224_1_lhn" TARGET_NAME="20201224_1_lhn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="20201224_1_lhn" RUN_TARGET_NAME="20201224_1_lhn">
+    <configuration name="20201230_3_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="20201230_3_2" TARGET_NAME="20201230_3_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="20201230_3_2" RUN_TARGET_NAME="20201230_3_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -51,13 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6b3fd18-8e8a-485c-931e-c110af8e7e0c" name="默认的" comment="" />
-      <created>1608824349275</created>
+      <changelist id="3ccac478-8e95-4d62-9317-2fb98d4f4af1" name="默认的" comment="" />
+      <created>1609336841057</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608824349275</updated>
-      <workItem from="1608824360067" duration="11000" />
-      <workItem from="1609323966950" duration="38000" />
+      <updated>1609336841057</updated>
+      <workItem from="1609336843320" duration="255000" />
     </task>
     <servers />
   </component>

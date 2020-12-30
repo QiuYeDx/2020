@@ -1,0 +1,6 @@
+(stu[j].name == stu[j + 1].name) && 
+
+3
+abc 1 333
+abc 4 333
+abc 2 333
