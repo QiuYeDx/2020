@@ -4,3 +4,73 @@
 abc 1 333
 abc 4 333
 abc 2 333
+
+
+10
+a 3 555
+a 2 555
+a 4 555
+a 6 111
+a 1 777
+b 5 333
+b 8 666
+b 7 333
+b 9 111
+c 10 723
+
+5
+b 3 100
+a 4 100
+c 2 100
+d 1 100
+
+7
+a 3 100
+a 2 100
+a 4 100
+a 5 200
+a 5 80
+a 1 200
+a 7 300
+
+  for (int k=1; k<10000;k++)
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = i+1; j<n ; j++)
+            {
+                if(strcmp(stu[j].name,stu[j+1].name)==0  && (stu[j].score == stu[j + 1].score) && stu[i].id > stu[j].id)
+                {
+                    rep = stu[j];
+                    stu[j] = stu[i];
+                    stu[i] = rep;
+                }
+            }
+        }
+
+/*switch (zl)
+        {
+            case 1: scanf("%ld%ld",&X,&Y);
+                    num[X]+=Y;
+                break;
+            case 2: scanf("%ld%ld%ld",&X1,&X2,&Y);
+                    for(long k=X1;k<=X2;k++)
+                        num[k]+=Y;
+                break;
+            case 3: scanf("%ld",&X);
+                    printf("%ld\n",num[X]);
+                break;
+            case 4: scanf("%ld%ld",&X1,&X2);
+                    sum=0;
+                    for(long k=X1;k<=X2;k++)
+                        sum+=num[k];
+                    printf("%lld\n",sum);
+                break;
+            default:break;
+        }*/
+
+3 4
+1 6 8
+1 2 4
+2 1 2 4
+4 2 3
+3 1
